@@ -1,0 +1,64 @@
+.Frnd-Container {
+    display: flex;
+    border-bottom: solid 1px rgb(116, 116, 116);
+    flex-direction: row;
+    background-color: rgb(195, 162, 226);
+    padding: 12px;
+}
+
+
+.Photo-Container {
+    flex-grow: 0;
+    padding: 5px;
+    background-color: rgb(107, 206, 128);
+}
+
+.Photo {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    overflow: hidden;
+    flex-grow: 1;
+    background-color: aqua;
+    border-radius: 50%;
+}
+.Data-Container {
+    flex-grow: 1;
+    display: flex;
+}
+
+.Data {
+    flex-grow: 1;
+    margin: auto 0 auto 0;
+}
+
+
+.Name-Container {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(241, 123, 123);
+}
+
+.Display-Name {
+    flex-grow: 1;
+    background-color: rgb(255, 255, 255);
+}
+.Date-Container {
+    background-color: rgb(91, 150, 218);
+}
+
+
+.Badge-Container {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(199, 206, 97);
+}
+
+.Status {
+    flex-grow: 1;
+    background-color: rgb(235, 84, 84);
+}
+.Notif-Container {
+    background-color: rgb(42, 165, 63);
+}
+

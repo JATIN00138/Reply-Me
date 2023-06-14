@@ -1,0 +1,54 @@
+* {
+  --var-topbar-height: 5px; /* value = 70px */
+  --var-inputbox-height: 70px;
+}
+
+.App {
+  background-color: rgb(172, 216, 255);
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.side-panel {
+  width: 35%;
+  border-right: 1px solid rgb(90, 90, 90);
+  background-color: rgb(160, 210, 255);
+}
+
+.topbar {
+      background-color: rgb(186, 197, 84);
+        height: var(--var-topbar-height);
+
+}
+
+.friend-list {
+    height: calc(100vh  - var(--var-topbar-height));
+    overflow: auto;
+}
+
+.main-panel {
+  width: 65%;
+  overflow: hidden;
+  background-color: rgb(233, 200, 255);
+}
+
+.data {
+  margin: auto;
+  background-color: rgb(137, 216, 179);
+}
+
+
+
+.messages {
+  display: flex;
+  padding: 0 12px;
+  flex-direction: column;
+  height: calc(100vh - var(--var-inputbox-height) - var(--var-topbar-height));
+  overflow: auto;
+}
+
+.input-box {
+  background-color: rgb(241, 239, 98);
+  height: var(--var-inputbox-height);
+}

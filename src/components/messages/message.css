@@ -1,0 +1,84 @@
+* {
+    --var-padding-bottom: 8px;
+    --color-msgOUT: rgb(74, 168, 255);
+    --color-msgIN: rgb(255, 143, 143);
+
+    --color-msgINFO: var(--color-msgIN);
+}
+.Row {
+    display: flex;
+    padding: 4px 0;
+}
+.RowIN {
+    justify-content: flex-start;
+}
+
+.RowOUT {
+    justify-content: flex-end;
+}
+
+.RowINFO {
+    justify-content: center;
+}
+
+
+.Message {
+    position: relative;
+    width: 300px;
+    background-color: rgb(131, 131, 131);
+    border-radius: 8px;
+    padding: 6px 4px var(--var-padding-bottom) 4px;
+}
+
+.svgIN {
+    display: block;
+    fill: var(--color-msgIN);
+}
+.svgOUT {
+    display: block;
+    fill: var(--color-msgOUT);
+    transform: scale(-1, 1);
+}
+.MessageIN {
+    /* border-top-left-radius: 0; */
+    background-color: var(--color-msgIN);
+}
+
+.MessageOUT {
+    /* border-top-right-radius: 0; */
+    height: auto;
+    width: auto;
+    background-color: var(--color-msgOUT);
+}
+.MessageINFO {
+    width: auto;
+    
+    background-color: var(--color-msgINFO);
+}
+
+
+
+.ReplaiedMsg {
+    background-color: brown;
+    padding: 6px 10px;
+}
+
+.name {
+    padding-bottom: 4px;
+}
+.textMsg {
+    padding-top: 6px;
+}
+
+.time {
+    position: absolute;
+    bottom: 3px;
+    right: 3px;
+}
+.px-4 {
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+
+

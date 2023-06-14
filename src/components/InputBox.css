@@ -1,0 +1,23 @@
+* {
+    --var-field-margin-x: 24px;
+    --var-field-margin-y: 12px;
+    box-sizing: border-box;
+}
+.textarea {
+    border-width: 0px;
+    border-radius: 999em;
+    border-color: aqua;
+    padding: 0px 24px;
+    height: calc(100% - 2*var(--var-field-margin-y));
+    width: calc(100% - 2*var(--var-field-margin-x));
+    margin: var(--var-field-margin-y) var(--var-field-margin-x);
+    font-size: 18px;
+}
+.field:active {
+
+    border-width: 1px;
+    border-color: rgb(136, 136, 136);
+}
+
+
+
